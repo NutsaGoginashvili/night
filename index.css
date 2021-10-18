@@ -1,0 +1,691 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(28, 26, 40);
+}
+
+div.wrapper {
+    background-color: rgb(28, 26, 40);
+    margin: 0 auto;
+    width: 800px;
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+div.first-circle {
+    background-color: rgb(38, 34, 59);
+    width: 800px;
+    height: 750px;
+    border-radius: 50%;
+    position: absolute;
+
+}
+
+div.second-circle {
+    background-color: rgb(80, 69, 112);
+    width: 629px;
+    height: 628px;
+    margin-left: 85px;
+    border-radius: 50%;
+    margin-top: 51px;
+}
+
+div.third-circle {
+    background-color: rgb(139, 112, 163);
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    margin-top: 66px;
+    margin-left: 65px;
+}
+
+div.moon {
+    background-color: rgb(247, 229, 227);
+    border-radius: 50%;
+    position: absolute;
+    width: 378px;
+    height: 378px;
+    margin-top: 60px;
+    overflow: hidden;
+    margin-left: 59px;
+}
+
+div.moon-circle-one,
+div.moon-circle-two,
+div.moon-circle-three,
+div.moon-circle-four {
+    position: absolute;
+    background-color: rgb(241, 219, 222);
+    border-radius: 50%;
+}
+
+div.moon-circle-one {
+    width: 100px;
+    height: 100px;
+}
+
+div.moon-circle-two {
+    width: 45px;
+    height: 45px;
+    margin-left: 272px;
+    margin-top: 69px;
+}
+
+div.moon-circle-three {
+    width: 89px;
+    height: 86px;
+    margin-top: 273px;
+    margin-left: 10px;
+}
+
+div.moon-circle-four {
+    margin-top: 252px;
+    margin-left: 272px;
+    width: 45px;
+    height: 45px;
+}
+
+div.first-cloud {
+    position: absolute;
+    width: 463px;
+    height: 177px;
+
+    margin-top: 284px;
+    margin-left: 337px;
+}
+
+div.first-cloud-circles,
+div.second-cloud-circles,
+div.third-cloud-circles,
+div.fourth-cloud-circles {
+    position: absolute;
+    border-radius: 50%;
+}
+
+div.first-cloud-circles.first {
+    background-color: rgb(138, 121, 163);
+    width: 35px;
+    height: 35px;
+    margin-left: 445px;
+    margin-top: 10px;
+}
+
+div.first-cloud-circles.second {
+    background-color: rgb(138, 121, 163);
+    width: 100px;
+    height: 121px;
+    margin-left: 397px;
+    margin-top: 26px;
+}
+
+div.first-cloud-circles.third {
+    background-color: rgb(138, 121, 163);
+    width: 35px;
+    height: 35px;
+    margin-left: 445px;
+    margin-top: 130px;
+}
+
+div.first-cloud-circles.fourth {
+    background-image: linear-gradient(to left, rgb(138, 121, 163), rgb(199, 184, 217));
+    width: 100px;
+    height: 95px;
+    margin-left: 327px;
+    margin-top: 39px;
+}
+
+div.first-cloud-circles.fifth {
+    background-color: rgb(185, 167, 205);
+    width: 143px;
+    height: 173px;
+    margin-left: 241px;
+}
+
+div.first-cloud-circles.sixth {
+    background-color: rgb(182, 167, 205);
+    width: 60px;
+    height: 138px;
+    margin-left: 231px;
+    margin-top: 17px;
+}
+
+div.first-cloud-circles.seventh {
+    background-color: rgb(250, 239, 247);
+    width: 47px;
+    height: 118px;
+    margin-left: 198px;
+    margin-top: 25px;
+    border: 3px solid rgb(250, 239, 247);
+}
+
+div.first-cloud-circles.eighth {
+    background-color: rgb(251, 239, 249);
+    width: 94px;
+    height: 75px;
+    margin-left: 148px;
+    margin-top: 48px;
+}
+
+div.first-cloud-circles.ninth {
+    background-color: rgb(253, 242, 248);
+    width: 68px;
+    height: 55px;
+    margin-left: 96px;
+    margin-top: 60px;
+}
+
+div.first-cloud-circles.tenth {
+    background-color: rgb(253, 242, 248);
+    width: 100px;
+    height: 100px;
+    margin-top: 44px;
+    margin-left: 12px;
+}
+
+div.second-cloud {
+    position: absolute;
+    width: 281px;
+    height: 98px;
+    margin-left: 518px;
+    margin-top: 320px;
+    overflow: hidden;
+}
+
+div.second-cloud-circles.first {
+    background-color: rgb(204, 194, 219);
+    width: 97px;
+    height: 50px;
+    margin-left: 226px;
+    margin-top: 32px;
+}
+
+div.second-cloud-circles.second {
+    background-color: rgb(223, 216, 232);
+    width: 59px;
+    height: 30px;
+    margin-left: 172px;
+    margin-top: 42px;
+}
+
+div.second-cloud-circles.third {
+    background-color: rgb(236, 233, 242);
+    width: 107px;
+    height: 77px;
+    margin-left: 81px;
+    margin-top: 18px;
+}
+
+div.second-cloud-circles.fourth {
+    background-color: rgb(250, 248, 253);
+    width: 75px;
+    height: 88px;
+    margin-left: 47px;
+    margin-top: 10px;
+}
+
+div.second-cloud-circles.fifth {
+    background-color: rgb(252, 252, 254);
+    width: 40px;
+    height: 26px;
+    margin-top: 44px;
+    margin-left: 24px;
+}
+
+div.third-cloud {
+    position: absolute;
+    margin-top: 267px;
+    width: 352px;
+    height: 205px;
+}
+
+div.third-cloud-circles.first {
+    background-color: rgb(122, 109, 153);
+    width: 70px;
+    height: 94px;
+    margin-top: 57px;
+    margin-left: -20px;
+}
+
+div.third-cloud-circles.second {
+    background-color: rgb(162, 145, 187);
+    width: 140px;
+    height: 170px;
+    margin-top: 19px;
+    margin-left: 13px;
+}
+
+div.third-cloud-circles.third {
+    background-color: rgb(202, 187, 220);
+    width: 97px;
+    height: 196px;
+    margin-left: 77px;
+    margin-top: 6px;
+}
+
+div.third-cloud-circles.fourth {
+    background-color: rgb(225, 212, 238);
+    width: 87px;
+    height: 125px;
+    margin-left: 122px;
+    margin-top: 41px;
+}
+
+div.third-cloud-circles.fifth {
+    background-color: rgb(227, 214, 231);
+    width: 100px;
+    height: 74px;
+    margin-left: 150px;
+    margin-top: 67px;
+}
+
+div.third-cloud-circles.sixth {
+    background-color: rgb(253, 240, 247);
+    width: 74px;
+    height: 55px;
+    margin-left: 235px;
+    margin-top: 77px;
+}
+
+div.third-cloud-circles.seventh {
+    background-color: rgb(253, 240, 247);
+    width: 63px;
+    height: 45px;
+    margin-left: 304px;
+    margin-top: 89px;
+}
+
+div.fourth-cloud {
+    position: absolute;
+    width: 196px;
+
+    height: 110px;
+    margin-top: 320px;
+}
+
+div.fourth-cloud-circles.first {
+    background-color: rgb(253, 240, 247);
+    width: 57px;
+    height: 34px;
+    margin-top: 40px;
+    margin-left: -10px;
+}
+
+div.fourth-cloud-circles.second {
+    background-color: rgb(223, 214, 235);
+    width: 107px;
+    height: 80px;
+    margin-left: 30px;
+    margin-top: 18px;
+}
+
+div.fourth-cloud-circles.third {
+    background-color: rgb(242, 239, 248);
+    width: 72px;
+    height: 95px;
+    margin-left: 97px;
+    margin-top: 10px;
+    border-radius: 47%;
+}
+
+div.fourth-cloud-circles.fourth {
+    background-color: rgb(242, 239, 248);
+    width: 43px;
+    height: 31px;
+    margin-left: 149px;
+    margin-top: 42px;
+}
+
+div.sea {
+    background-color: rgb(38, 34, 59);
+    position: absolute;
+    width: 100%;
+    height: 222px;
+    bottom: 0;
+    opacity: 80%;
+}
+
+div.comet-first {
+    position: absolute;
+    width: 141px;
+    height: 151px;
+    transform: rotate(
+            59deg);
+    margin-left: 548px;
+    margin-top: 59px;
+    border-left: 2px solid white;
+}
+
+div.comet-second {
+    position: absolute;
+    width: 100px;
+    height: 78px;
+    transform: rotate(
+            54deg);
+    margin-top: 239px;
+    margin-left: 33px;
+    border-left: 2px solid white;
+}
+
+div.comet-third {
+    position: absolute;
+    width: 50px;
+    height: 64px;
+    border-left: 1px solid rgb(59, 56, 77);
+    transform: rotate(
+            108deg);
+    bottom: 59px;
+    margin-left: 18px;
+}
+
+div.comet-fourth {
+    position: absolute;
+    border-top: 1px solid rgb(59, 56, 77);
+    width: 100px;
+    height: 100px;
+    transform: rotate(
+            19deg);
+    bottom: -62px;
+    margin-left: 512px;
+}
+
+div.mini-cloud {
+    position: absolute;
+    background-color: white;
+    border-radius: 40px;
+}
+
+div.mini-cloud.first {
+    width: 61px;
+    height: 13px;
+    margin-top: 435px;
+    margin-left: 47px;
+    opacity: 30%;
+}
+
+div.mini-cloud.second {
+    width: 30px;
+    height: 10px;
+    margin-top: 424px;
+    margin-left: 31px;
+    opacity: 15%;
+}
+
+div.mini-cloud.third {
+    width: 59px;
+    margin-top: 534px;
+    height: 11px;
+    margin-left: 185px;
+    opacity: 35%;
+}
+
+div.mini-cloud.fourth {
+    width: 44px;
+    height: 12px;
+    margin-left: 630px;
+    margin-top: 411px;
+    opacity: 30%;
+}
+
+div.mini-cloud.fifth {
+    width: 42px;
+    height: 10px;
+    margin-top: 529px;
+    margin-left: 631px;
+    opacity: 28%;
+}
+
+div.mini-cloud.sixth {
+    width: 42px;
+    height: 12px;
+    margin-top: 429px;
+    margin-left: 702px;
+    opacity: 33%;
+}
+
+div.star {
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background-color: white;
+
+}
+
+div.star.first {
+    margin-top: 40px;
+    margin-left: 83px;
+}
+
+div.star.second {
+    margin-top: 69px;
+    margin-left: 177px;
+}
+
+div.star.third {
+    margin-left: 111px;
+    margin-top: 188px;
+}
+
+div.star.fourth {
+    margin-left: 632px;
+    margin-top: 186px;
+}
+
+div.star.fifth {
+    margin-left: 713px;
+    margin-top: 133px;
+}
+
+div.star.sixth {
+    margin-left: 740px;
+    margin-top: 275px;
+}
+
+div.boat-wrapper {
+    position: absolute;
+    width: 188px;
+    height: 167px;
+    margin-left: 306px;
+    margin-top: 321px;
+}
+
+div.big-part.top {
+    background-color: rgb(134, 88, 153);
+    width: 117px;
+    height: 30px;
+    position: absolute;
+    margin-top: 51px;
+    margin-left: 36px;
+}
+
+div.left-circle-outline.top {
+
+    border-radius: 50%;
+    width: 80px;
+    height: 74px;
+    border-bottom: 20px solid rgb(134, 88, 153);
+    transform: rotate(
+            75deg);
+    position: absolute;
+    margin-left: 12px;
+    margin-top: -6px;
+}
+
+div.left-circle-mini.top {
+    border-radius: 50%;
+    position: absolute;
+    height: 17px;
+    margin-top: 2px;
+    margin-left: 29px;
+    transform: rotate(
+            5deg);
+    width: 17px;
+    border-right: 4px solid rgb(134, 88, 153);
+    border-top: 4px solid rgb(134, 88, 153);
+}
+
+div.left-filling.top {
+    position: absolute;
+    background-color: rgb(134, 88, 153);
+    width: 25px;
+    height: 16px;
+    margin-top: 51px;
+    margin-left: 15px;
+}
+
+div.right-circle-outline.top {
+    position: absolute;
+    width: 53px;
+    height: 53px;
+    border-radius: 50px;
+    border-right: 10px solid rgb(134, 88, 153);
+    margin-top: 26px;
+    margin-left: 112px;
+    transform: rotate(26deg);
+}
+
+div.right-filling.top {
+    position: absolute;
+    background-color: rgb(134, 88, 153);
+    width: 20px;
+    height: 23px;
+    margin-left: 148px;
+    margin-top: 51px;
+}
+
+div.boat-line {
+    position: absolute;
+    background-color: rgb(88, 56, 101);
+    width: 148px;
+    height: 8px;
+    opacity: 80%;
+    border-radius: 20px;
+    margin-top: 76px;
+    margin-left: 22px;
+    z-index: 2;
+}
+
+div.big-part.bottom {
+    background-color: rgb(107 69 122);
+    width: 117px;
+    height: 30px;
+    position: absolute;
+    margin-top: 79px;
+    margin-left: 36px;
+}
+
+div.left-circle-outline.bottom {
+    border-radius: 50%;
+    width: 80px;
+    height: 74px;
+    border-bottom: 20px solid rgb(107 69 122);
+    transform: rotate(
+            108deg);
+    position: absolute;
+    margin-left: 12px;
+    margin-top: 75px;
+}
+
+div.left-circle-mini.bottom {
+    border-radius: 50%;
+    position: absolute;
+    height: 17px;
+    margin-top: 138px;
+    margin-left: 29px;
+    transform: rotate(
+            93deg);
+    width: 17px;
+    border-right: 4px solid rgb(107 69 122);
+    border-top: 4px solid rgb(107 69 122);
+}
+
+div.left-filling.bottom {
+    position: absolute;
+    background-color: rgb(107 69 122);
+    width: 25px;
+    height: 16px;
+    margin-top: 93px;
+    margin-left: 15px;
+}
+
+div.right-circle-outline.bottom {
+    position: absolute;
+    width: 53px;
+    height: 53px;
+    border-radius: 50px;
+    border-right: 10px solid rgb(107 69 122);
+    margin-top: 87px;
+    margin-left: 112px;
+    transform: rotate(-32deg);
+}
+
+div.right-filling.bottom {
+    position: absolute;
+    background-color: rgb(107 69 122);
+    width: 20px;
+    height: 23px;
+    margin-left: 145px;
+    margin-top: 85px;
+}
+
+div.human {
+    position: absolute;
+    width: 54px;
+    height: 53px;
+    top: 319px;
+    left: 371px;
+}
+
+div.hand-one {
+    position: absolute;
+    width: 3px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(95, 54, 114);
+    transform: rotate(
+            46deg);
+    margin-top: 37px;
+    margin-left: 33px;
+}
+div.hand-two {
+    position: absolute;
+    width: 3px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(95, 54, 114);
+    transform: rotate(
+            -66deg);
+    margin-top: 37px;
+    margin-left: 17px;
+}
+
+div.head {
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgb(95, 54, 114);
+    width: 10px;
+    height: 10px;
+    margin-top: 32px;
+    margin-left: 22px;
+}
+div.body{
+    position: absolute;
+    width: 10px;
+    height: 12px;
+    background-color: rgb(95, 54, 114);
+    border-radius: 35%;
+    margin-top: 41px;
+    margin-left: 22px;
+
+}
+.in-sea{
+    transform: rotate(180deg);
+    margin-top: 112px;
+
+}
